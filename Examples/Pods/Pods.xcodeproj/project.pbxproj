@@ -10,6 +10,8 @@
 		1B54941E5E719905EA0976C1582AA362 /* SlackTextViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD4C1C4F8E3B6387290B1063443579F /* SlackTextViewController-dummy.m */; };
 		1D87BAF6807A6F24656CE3C6E0A3D691 /* SLKTypingIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = E76EC386EBA8E2BD0919F33C32DBFB41 /* SLKTypingIndicatorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A6186F8AE6C5CD2767949046F017961 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		3862D95A1DE5D556008CA570 /* UIButtonAsFirstResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3862D9581DE5D556008CA570 /* UIButtonAsFirstResponder.h */; };
+		3862D95B1DE5D556008CA570 /* UIButtonAsFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3862D9591DE5D556008CA570 /* UIButtonAsFirstResponder.m */; };
 		3B67741D6C7B5D4C5B8AFCC351C7F424 /* UIResponder+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3CEB520ABAE633DB696CD533769677 /* UIResponder+SLKAdditions.m */; };
 		4D4CD125276CAEF26B7E6433C1E9A458 /* SLKTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C31B9359538DB1818FDCE030CB4C1695 /* SLKTextViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52855809CE7672258D6707D8EB1DA870 /* SLKTypingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2BA9C4B342C46DFB060C7EDAC0D02E /* SLKTypingIndicatorView.m */; };
@@ -67,6 +69,8 @@
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
 		2D326C0E925F5D55D604E945A6B1FF33 /* libLoremIpsum.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLoremIpsum.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3862D9581DE5D556008CA570 /* UIButtonAsFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIButtonAsFirstResponder.h; sourceTree = "<group>"; };
+		3862D9591DE5D556008CA570 /* UIButtonAsFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIButtonAsFirstResponder.m; sourceTree = "<group>"; };
 		38F8DCFB48A21AEC554454EBCAA8F121 /* UIResponder+SLKAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIResponder+SLKAdditions.h"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3FEDBEE9200697C2E3510ACDDC12CCB7 /* LoremIpsum.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LoremIpsum.xcconfig; sourceTree = "<group>"; };
@@ -223,6 +227,8 @@
 				C41834960415015B9F61AFB584936219 /* UIScrollView+SLKAdditions.m */,
 				C8AA8BA4CD934D5702F4394F583323E3 /* UIView+SLKAdditions.h */,
 				904A23980152CBAEEEF9D965427462DD /* UIView+SLKAdditions.m */,
+				3862D9581DE5D556008CA570 /* UIButtonAsFirstResponder.h */,
+				3862D9591DE5D556008CA570 /* UIButtonAsFirstResponder.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -284,6 +290,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3862D95A1DE5D556008CA570 /* UIButtonAsFirstResponder.h in Headers */,
 				5541B1417BA993425E1B015992908C54 /* LoremIpsum.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +402,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3862D95B1DE5D556008CA570 /* UIButtonAsFirstResponder.m in Sources */,
 				BB5DE846FF718133D67729717C4C6CC9 /* LoremIpsum-dummy.m in Sources */,
 				89D3F183FA5B8BA60E82030FBA24D1E1 /* LoremIpsum.m in Sources */,
 			);

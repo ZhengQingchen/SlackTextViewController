@@ -11,6 +11,7 @@
 
 #import "UIResponder+SLKAdditions.h"
 #import "SLKUIConstants.h"
+#import "UIButtonAsFirstResponder.h"
 
 /** Feature flagged while waiting to implement a more reliable technique. */
 #define SLKBottomPanningEnabled 0
@@ -361,7 +362,7 @@ CGFloat const SLKAutoCompletionViewDefaultHeight = 140.0;
     return _textInputbar.textView;
 }
 
-- (UIButton *)leftButton
+- (UIButtonAsFirstResponder *)leftButton
 {
     return _textInputbar.leftButton;
 }

@@ -10,6 +10,7 @@
 
 @class SLKTextView;
 @class SLKInputAccessoryView;
+@class UIButtonAsFirstResponder;
 
 typedef NS_ENUM(NSUInteger, SLKCounterStyle) {
     SLKCounterStyleNone,
@@ -40,7 +41,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) SLKInputAccessoryView *inputAccessoryView;
 
 /** The left action button action. */
-@property (nonatomic, strong) UIButton *leftButton;
+@property (nonatomic, strong) UIButtonAsFirstResponder *leftButton;
 
 /** The right action button action. */
 @property (nonatomic, strong) UIButton *rightButton;

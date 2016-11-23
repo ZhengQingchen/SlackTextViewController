@@ -12,6 +12,7 @@
 
 #import "SLKTextView+SLKAdditions.h"
 #import "UIView+SLKAdditions.h"
+#import "UIButtonAsFirstResponder.h"
 
 #import "SLKUIConstants.h"
 
@@ -157,10 +158,10 @@ NSString * const SLKTextInputbarDidMoveNotification =   @"SLKTextInputbarDidMove
     return _inputAccessoryView;
 }
 
-- (UIButton *)leftButton
+- (UIButtonAsFirstResponder *)leftButton
 {
     if (!_leftButton) {
-        _leftButton = [UIButton buttonWithType:UIButtonTypeSystem];
+        _leftButton = [UIButtonAsFirstResponder buttonWithType:UIButtonTypeSystem];
         _leftButton.translatesAutoresizingMaskIntoConstraints = NO;
         _leftButton.titleLabel.font = [UIFont systemFontOfSize:15.0];
     }

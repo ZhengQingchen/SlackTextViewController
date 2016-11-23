@@ -10,7 +10,7 @@
 
 @interface UIButtonAsFirstResponder : UIButton
 
-@property (strong, nonatomic) UIView *inputView;
-@property (strong, nonatomic) UIView *inputAccessoryView;
+@property (strong, nonatomic, readwrite) UIView *inputView;
+@property (strong, nonatomic, readwrite) UIView *inputAccessoryView;
 
 @end

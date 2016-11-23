@@ -90,6 +90,8 @@
     self.shouldScrollToBottomAfterKeyboardShows = NO;
     self.inverted = YES;
     
+    self.leftButton.inputView = [[UIView alloc] init];
+    
     [self.leftButton setImage:[UIImage imageNamed:@"icn_upload"] forState:UIControlStateNormal];
     [self.leftButton setTintColor:[UIColor grayColor]];
     
